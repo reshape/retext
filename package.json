@@ -1,0 +1,40 @@
+{
+  "name": "reshape-retext",
+  "description": "plugin that transforms all text contents with retext",
+  "version": "0.0.0",
+  "author": "Jeff Escalante",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/reshape/retext/issues",
+  "dependencies": {
+    "retext": "^3.0.0",
+    "when": "^3.7.7"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "reshape": "reshape/reshape",
+    "retext-emoji": "^2.0.0",
+    "retext-smartypants": "^2.0.0",
+    "snazzy": "^4.0.1",
+    "standard": "^7.1.2"
+  },
+  "homepage": "https://github.com/reshape/retext",
+  "keywords": [
+    "html",
+    "language",
+    "natural",
+    "reshape-plugin",
+    "retext",
+    "typography"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": "https://github.com/reshape/retext",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "test": "npm run lint && ava",
+    "coverage": "nyc ava && nyc report --reporter=html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  }
+}
