@@ -1,4 +1,4 @@
-node_modules/
-test/
-npm-debug.log
+test
 .editorconfig
+coverage
+.nyc_output
