@@ -5,7 +5,7 @@
 [![dependencies](https://img.shields.io/david/reshape/retext.svg?style=flat-square)](https://david-dm.org/reshape/retext)
 [![coverage](https://img.shields.io/coveralls/reshape/retext.svg?style=flat-square)](https://coveralls.io/r/reshape/retext?branch=master)
 
-Plugin wrapper over [Retext](https://github.com/wooorm/retext), an extensible system for analyzing and manipulating natural language
+Plugin wrapper over [Retext](https://github.com/wooorm/retext), an extensible system for analyzing and manipulating natural language.
 
 ## Usage
 
@@ -17,7 +17,7 @@ const emoji = require('retext-emoji')
 const smartypants = require('retext-smartypants')
 
 reshape({
-  plugins: retext([[emoji, { convert: 'encode' }], smartpants])
+  plugins: retext([[emoji, { convert: 'encode' }], smartypants])
 }).process(fs.readFileSync('path/to/file.html', 'utf8'))
   .then((result) => { fs.writeFileSync('path/to/file.html', 'utf8') })
 ```

@@ -1,4 +1,4 @@
-const pretext = require('..')
+const retext = require('..')
 const reshape = require('reshape')
 const {readFileSync} = require('fs')
 const test = require('ava')
@@ -16,7 +16,7 @@ function compare (t, name, plugins) {
   const input = readFileSync(inputFile, 'utf8')
   const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8')
 
-  return reshape({ plugins: pretext(plugins), filename: inputFile })
+  return reshape({ plugins: retext(plugins), filename: inputFile })
     .process(input)
     .then((res) => t.truthy(res.output() === expected))
 }
