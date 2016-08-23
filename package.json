@@ -1,6 +1,6 @@
 {
   "name": "reshape-retext",
-  "description": "plugin that transforms all text contents with retext",
+  "description": "transform all text contents with retext",
   "version": "0.1.1",
   "author": "Jeff Escalante",
   "ava": {
