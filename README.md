@@ -60,6 +60,22 @@ reshape({
 </html>
 ```
 
+## Skipping Tags
+
+If you'd like to have retext skip processing any any particular tag, you can add a `retext-skip` attribute to the tag. The plugin will not process the tag's contents, but will remove the attribute in the output. For example, the following input:
+
+```html
+<p>:tada:</p>
+<p retext-skip>:tada:</p>
+```
+
+...would produce this output:
+
+```html
+<p>🎉</p>
+<p>:tada:</p>
+```
+
 ## License & Contributing
 
 - Licensed under [MIT](LICENSE.md)
