@@ -1,7 +1,7 @@
 {
   "name": "reshape-retext",
   "description": "transform all text contents with retext",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Jeff Escalante",
   "ava": {
     "verbose": "true"
