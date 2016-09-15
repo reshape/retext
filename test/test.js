@@ -15,6 +15,10 @@ test('skip tag', (t) => {
   return compare(t, 'reshape-skip', [[emoji, { convert: 'encode' }]])
 })
 
+test('blacklist', (t) => {
+  return compare(t, 'blacklist', [smartypants])
+})
+
 function compare (t, name, plugins) {
   const inputFile = path.join(fixtures, `${name}.html`)
   const input = readFileSync(inputFile, 'utf8')
