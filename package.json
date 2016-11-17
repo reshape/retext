@@ -13,7 +13,7 @@
     "when": "^3.7.7"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "reshape": "^0.3.0",
     "retext-emoji": "^2.0.0",
     "retext-smartypants": "^2.0.0",
