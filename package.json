@@ -9,7 +9,7 @@
   "bugs": "https://github.com/reshape/retext/issues",
   "dependencies": {
     "reshape-plugin-util": "^0.2.0",
-    "retext": "^3.0.0",
+    "retext": "^4.0.0",
     "when": "^3.7.7"
   },
   "devDependencies": {
