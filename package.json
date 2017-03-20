@@ -18,7 +18,7 @@
     "retext-emoji": "^2.0.0",
     "retext-smartypants": "^2.0.0",
     "snazzy": "^6.0.0",
-    "standard": "^8.0.0"
+    "standard": "^9.0.2"
   },
   "homepage": "https://github.com/reshape/retext",
   "keywords": [
