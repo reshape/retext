@@ -9,16 +9,16 @@
   "bugs": "https://github.com/reshape/retext/issues",
   "dependencies": {
     "reshape-plugin-util": "^0.2.0",
-    "retext": "^4.0.0",
-    "when": "^3.7.7"
+    "retext": "^5.0.0",
+    "when": "^3.7.8"
   },
   "devDependencies": {
-    "ava": "^0.19.0",
+    "ava": "^0.21.0",
     "reshape": "^0.4.0",
-    "retext-emoji": "^2.0.0",
-    "retext-smartypants": "^2.0.0",
-    "snazzy": "^6.0.0",
-    "standard": "^9.0.2"
+    "retext-emoji": "^3.0.0",
+    "retext-smartypants": "^3.0.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
   },
   "homepage": "https://github.com/reshape/retext",
   "keywords": [
