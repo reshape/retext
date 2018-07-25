@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "ava": "^0.21.0",
-    "reshape": "^0.4.0",
+    "reshape": "^0.5.0",
     "retext-emoji": "^3.0.0",
     "retext-smartypants": "^3.0.0",
     "snazzy": "^7.0.0",
