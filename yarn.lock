@@ -1197,6 +1197,10 @@ emoticon@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/emoticon/-/emoticon-2.0.0.tgz#40405171ec2976f66930da30331d0c62d0fff3b8"
 
+emoticon@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/emoticon/-/emoticon-3.1.1.tgz#269b016daebe4b12c01d1afb3982e7cbfbfafb8b"
+
 empower-core@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/empower-core/-/empower-core-0.6.1.tgz#6c187f502fcef7554d57933396aac655483772b1"
@@ -1666,9 +1670,9 @@ gauge@~2.7.1:
     supports-color "^0.2.0"
     wide-align "^1.1.0"
 
-gemoji@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/gemoji/-/gemoji-2.0.1.tgz#ad23b5f7e989ac7451b9652ccff06e8fad622f06"
+gemoji@^4.2.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/gemoji/-/gemoji-4.2.1.tgz#88495f479a2e35a2c693e0ed321933372fc74c68"
 
 generate-function@^2.0.0:
   version "2.0.0"
@@ -2150,9 +2154,11 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-isemail@2.x.x:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/isemail/-/isemail-2.2.1.tgz#0353d3d9a62951080c262c2aa0a42b8ea8e9e2a6"
+isemail@3.x.x:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/isemail/-/isemail-3.2.0.tgz#59310a021931a9fb06bbb51e155ce0b3f236832c"
+  dependencies:
+    punycode "2.x.x"
 
 isexe@^1.1.1:
   version "1.1.2"
@@ -2168,23 +2174,18 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-items@2.x.x:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/items/-/items-2.1.1.tgz#8bd16d9c83b19529de5aea321acaada78364a198"
-
 jodid25519@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz#06d4912255093419477d425633606e0e90782967"
   dependencies:
     jsbn "~0.1.0"
 
-joi@^10.2.0:
-  version "10.6.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-10.6.0.tgz#52587f02d52b8b75cdb0c74f0b164a191a0e1fc2"
+joi@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-12.0.0.tgz#46f55e68f4d9628f01bbb695902c8b307ad8d33a"
   dependencies:
     hoek "4.x.x"
-    isemail "2.x.x"
-    items "2.x.x"
+    isemail "3.x.x"
     topo "2.x.x"
 
 js-string-escape@^1.0.1:
@@ -2350,9 +2351,13 @@ lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
-lodash.merge@^4.4.0, lodash.merge@^4.6.0:
+lodash.merge@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
+
+lodash.merge@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
 
 lodash@^4.0.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
@@ -2526,12 +2531,11 @@ nlcst-affix-emoticon-modifier@^1.0.0:
   dependencies:
     unist-util-modify-children "^1.0.0"
 
-nlcst-emoji-modifier@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nlcst-emoji-modifier/-/nlcst-emoji-modifier-1.1.0.tgz#d1886c76c982edd729a72564e45eccbafc5fe5bf"
+nlcst-emoji-modifier@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/nlcst-emoji-modifier/-/nlcst-emoji-modifier-2.0.2.tgz#2fbb32ff0c0d2d80eaa681f869be4e2449a0dce8"
   dependencies:
-    gemoji "^2.0.1"
-    has "^1.0.1"
+    gemoji "^4.2.0"
     nlcst-to-string "^2.0.0"
     unist-util-modify-children "^1.0.0"
 
@@ -2751,9 +2755,9 @@ parse-ms@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parse-ms/-/parse-ms-1.0.1.tgz#56346d4749d78f23430ca0c713850aef91aa361d"
 
-parse5@^2.1.5:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/parse5/-/parse5-2.2.3.tgz#0c4fc41c1000c5e6b93d48b03f8083837834e9f6"
+parse5@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
 
 path-exists@^2.0.0:
   version "2.1.0"
@@ -2907,6 +2911,10 @@ progress@^1.1.8:
 pseudomap@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+
+punycode@2.x.x:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
 punycode@^1.4.1:
   version "1.4.1"
@@ -3121,18 +3129,18 @@ require-uncached@^1.0.2:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
 
-reshape-code-gen@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/reshape-code-gen/-/reshape-code-gen-0.2.1.tgz#e1cd981b0573138661d34b54244d38f09ab33d14"
+reshape-code-gen@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/reshape-code-gen/-/reshape-code-gen-1.0.0.tgz#c7d23cb133eacc9e5c1e6a83b3fe57c200e18eb0"
   dependencies:
     objectfn "^2.0.0"
     with "^5.1.1"
 
-reshape-parser@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/reshape-parser/-/reshape-parser-0.2.1.tgz#3d713188c0ae05b899e3528774aacc2aef147368"
+reshape-parser@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reshape-parser/-/reshape-parser-0.3.1.tgz#9da89b9524c94f86248ccdf2ddcdaa800ae51de2"
   dependencies:
-    parse5 "^2.1.5"
+    parse5 "^4.0.0"
 
 reshape-plugin-util@^0.2.0:
   version "0.2.1"
@@ -3140,16 +3148,16 @@ reshape-plugin-util@^0.2.0:
   dependencies:
     when "^3.7.7"
 
-reshape@^0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/reshape/-/reshape-0.4.1.tgz#19f0179ca4d172219875f71e66b6bc4048ee3e72"
+reshape@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reshape/-/reshape-0.5.1.tgz#50e21eca8cbdb8e6671f42d5fe693c0ed5ddc958"
   dependencies:
     code-frame "^5.0.0"
-    joi "^10.2.0"
-    lodash.merge "^4.4.0"
-    reshape-code-gen "^0.2.1"
-    reshape-parser "^0.2.1"
-    when "^3.7.7"
+    joi "^12.0.0"
+    lodash.merge "^4.6.1"
+    reshape-code-gen "^1.0.0"
+    reshape-parser "^0.3.1"
+    when "^3.7.8"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -3189,14 +3197,14 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
-retext-emoji@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/retext-emoji/-/retext-emoji-3.0.0.tgz#918bfd8636f11faa77334f9e884d3be4b33f0345"
+retext-emoji@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/retext-emoji/-/retext-emoji-5.0.1.tgz#f14f3ce82142e15b9ec20d8643a76a6f268d814f"
   dependencies:
-    emoticon "^2.0.0"
-    gemoji "^2.0.1"
+    emoticon "^3.1.0"
+    gemoji "^4.2.0"
     nlcst-affix-emoticon-modifier "^1.0.0"
-    nlcst-emoji-modifier "^1.0.0"
+    nlcst-emoji-modifier "^2.0.0"
     nlcst-emoticon-modifier "^1.0.0"
     nlcst-to-string "^2.0.0"
     unist-util-visit "^1.0.0"
