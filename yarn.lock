@@ -1969,9 +1969,9 @@ is-buffer@^1.0.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.4.tgz#cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
 
-is-buffer@^1.1.4:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
+is-buffer@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.3.tgz#4ecf3fcf749cbd1e472689e109ac66261a25e725"
 
 is-builtin-module@^1.0.0:
   version "1.0.0"
@@ -2150,9 +2150,11 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-isemail@2.x.x:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/isemail/-/isemail-2.2.1.tgz#0353d3d9a62951080c262c2aa0a42b8ea8e9e2a6"
+isemail@3.x.x:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/isemail/-/isemail-3.2.0.tgz#59310a021931a9fb06bbb51e155ce0b3f236832c"
+  dependencies:
+    punycode "2.x.x"
 
 isexe@^1.1.1:
   version "1.1.2"
@@ -2168,23 +2170,18 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-items@2.x.x:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/items/-/items-2.1.1.tgz#8bd16d9c83b19529de5aea321acaada78364a198"
-
 jodid25519@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz#06d4912255093419477d425633606e0e90782967"
   dependencies:
     jsbn "~0.1.0"
 
-joi@^10.2.0:
-  version "10.6.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-10.6.0.tgz#52587f02d52b8b75cdb0c74f0b164a191a0e1fc2"
+joi@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-12.0.0.tgz#46f55e68f4d9628f01bbb695902c8b307ad8d33a"
   dependencies:
     hoek "4.x.x"
-    isemail "2.x.x"
-    items "2.x.x"
+    isemail "3.x.x"
     topo "2.x.x"
 
 js-string-escape@^1.0.1:
@@ -2350,9 +2347,13 @@ lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
-lodash.merge@^4.4.0, lodash.merge@^4.6.0:
+lodash.merge@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.0.tgz#69884ba144ac33fe699737a6086deffadd0f89c5"
+
+lodash.merge@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
 
 lodash@^4.0.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
@@ -2751,9 +2752,9 @@ parse-ms@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parse-ms/-/parse-ms-1.0.1.tgz#56346d4749d78f23430ca0c713850aef91aa361d"
 
-parse5@^2.1.5:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/parse5/-/parse5-2.2.3.tgz#0c4fc41c1000c5e6b93d48b03f8083837834e9f6"
+parse5@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
 
 path-exists@^2.0.0:
   version "2.1.0"
@@ -2907,6 +2908,10 @@ progress@^1.1.8:
 pseudomap@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+
+punycode@2.x.x:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
 punycode@^1.4.1:
   version "1.4.1"
@@ -3121,18 +3126,18 @@ require-uncached@^1.0.2:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
 
-reshape-code-gen@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/reshape-code-gen/-/reshape-code-gen-0.2.1.tgz#e1cd981b0573138661d34b54244d38f09ab33d14"
+reshape-code-gen@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/reshape-code-gen/-/reshape-code-gen-1.0.0.tgz#c7d23cb133eacc9e5c1e6a83b3fe57c200e18eb0"
   dependencies:
     objectfn "^2.0.0"
     with "^5.1.1"
 
-reshape-parser@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/reshape-parser/-/reshape-parser-0.2.1.tgz#3d713188c0ae05b899e3528774aacc2aef147368"
+reshape-parser@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reshape-parser/-/reshape-parser-0.3.1.tgz#9da89b9524c94f86248ccdf2ddcdaa800ae51de2"
   dependencies:
-    parse5 "^2.1.5"
+    parse5 "^4.0.0"
 
 reshape-plugin-util@^0.2.0:
   version "0.2.1"
@@ -3140,16 +3145,16 @@ reshape-plugin-util@^0.2.0:
   dependencies:
     when "^3.7.7"
 
-reshape@^0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/reshape/-/reshape-0.4.1.tgz#19f0179ca4d172219875f71e66b6bc4048ee3e72"
+reshape@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reshape/-/reshape-0.5.1.tgz#50e21eca8cbdb8e6671f42d5fe693c0ed5ddc958"
   dependencies:
     code-frame "^5.0.0"
-    joi "^10.2.0"
-    lodash.merge "^4.4.0"
-    reshape-code-gen "^0.2.1"
-    reshape-parser "^0.2.1"
-    when "^3.7.7"
+    joi "^12.0.0"
+    lodash.merge "^4.6.1"
+    reshape-code-gen "^1.0.0"
+    reshape-parser "^0.3.1"
+    when "^3.7.8"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -3221,13 +3226,13 @@ retext-stringify@^2.0.0:
   dependencies:
     nlcst-to-string "^2.0.0"
 
-retext@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/retext/-/retext-5.0.0.tgz#5d9018c4a677d6103c142362d76f50eb1d398bf6"
+retext@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/retext/-/retext-6.0.1.tgz#290bd152696011da4f8b1aa2e532b7ee1204569f"
   dependencies:
     retext-latin "^2.0.0"
     retext-stringify "^2.0.0"
-    unified "^6.0.0"
+    unified "^7.0.0"
 
 rimraf@2, rimraf@^2.2.8, rimraf@~2.5.1, rimraf@~2.5.4:
   version "2.5.4"
@@ -3640,16 +3645,15 @@ unherit@^1.0.4:
     inherits "^2.0.1"
     xtend "^4.0.1"
 
-unified@^6.0.0:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/unified/-/unified-6.1.5.tgz#716937872621a63135e62ced2f3ac6a063c6fb87"
+unified@^7.0.0:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/unified/-/unified-7.0.2.tgz#16aa2748a7c936b80846cc69c580cd5ebd844532"
   dependencies:
     bail "^1.0.0"
     extend "^3.0.0"
     is-plain-obj "^1.1.0"
     trough "^1.0.0"
-    vfile "^2.0.0"
-    x-is-function "^1.0.4"
+    vfile "^3.0.0"
     x-is-string "^0.1.0"
 
 uniq@^1.0.1:
@@ -3679,6 +3683,10 @@ unist-util-modify-children@^1.0.0:
 unist-util-stringify-position@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-stringify-position/-/unist-util-stringify-position-1.1.1.tgz#3ccbdc53679eed6ecf3777dd7f5e3229c1b6aa3c"
+
+unist-util-stringify-position@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/unist-util-stringify-position/-/unist-util-stringify-position-1.1.2.tgz#3f37fcf351279dcbca7480ab5889bb8a832ee1c6"
 
 unist-util-visit-children@^1.0.0:
   version "1.1.0"
@@ -3738,13 +3746,20 @@ verror@1.3.6:
   dependencies:
     extsprintf "1.0.2"
 
-vfile@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/vfile/-/vfile-2.2.0.tgz#ce47a4fb335922b233e535db0f7d8121d8fced4e"
+vfile-message@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vfile-message/-/vfile-message-1.0.1.tgz#51a2ccd8a6b97a7980bb34efb9ebde9632e93677"
   dependencies:
-    is-buffer "^1.1.4"
+    unist-util-stringify-position "^1.1.1"
+
+vfile@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/vfile/-/vfile-3.0.1.tgz#47331d2abe3282424f4a4bb6acd20a44c4121803"
+  dependencies:
+    is-buffer "^2.0.0"
     replace-ext "1.0.0"
     unist-util-stringify-position "^1.0.0"
+    vfile-message "^1.0.0"
 
 well-known-symbols@^1.0.0:
   version "1.0.0"
@@ -3830,10 +3845,6 @@ write@^0.2.1:
   resolved "https://registry.yarnpkg.com/write/-/write-0.2.1.tgz#5fc03828e264cea3fe91455476f7a3c566cb0757"
   dependencies:
     mkdirp "^0.5.1"
-
-x-is-function@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/x-is-function/-/x-is-function-1.0.4.tgz#5d294dc3d268cbdd062580e0c5df77a391d1fa1e"
 
 x-is-string@^0.1.0:
   version "0.1.0"
